@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MADARA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container ">
+        <div class="row">
+            <section class="col-2 text-center" id="Logo">
+                <img src="imagenes/logotipo4.png" class="img-fluid" alt="">
+            </section>
+            <nav class=" col-10 navbar navbar-expand-lg bg-body-tertiary"> <!--INICIO DE MENU-->
+                <div class="container-fluid">
+                  <a class="navbar-brand">MENU</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="informacion.html">informacion</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Relevancias</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="playstation.html">Caracteristicas</a></li>
+                          <li><a class="dropdown-item" href="xbox360.html">Ventajas</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav> <!--FIN DE MENU-->
+        </div>
+    </header>
+    <main  class="container"> 
+        <div class="row">
+            <section class="col-md-8" id="principal">
+                <div class="card">
+                    <div class="card-header text-bg-info fs-3">INFORMACION</div>
+                    <div class="card-body text-center">
+                      <h3>Sobre nosotros</h3>
+                      <p>Somos una pagina encargada de llevarte la informacion mas relevante sobre DART el cual es un nuevo lenguaje de programacion, registrate para obetener mas detalles y se parte de nuestra familia de programacion</p>
+                    <div class="clear"></div>
+                 </div>
+                </div>
+            </section>
+            <aside class="col-md-4"> <!--INICIO COLUMNA DERECHA-->
+                <section class="card">
+                    <div class="card-header text-bg-info mb-3">NOTICIAS</div>
+                    <div class="card">
+                        <img src="imagenes/noticia7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">¿Qué es Dart?</h5>
+                          <p class="card-text">Dart es un lenguaje open source desarrollado en Google con el objetivo de permitir a los desarrolladores utilizar un lenguaje orientado a objetos y con análisis estático de tipo. Desde la primera versión estable en 2011, Dart ha cambiado bastante, tanto en el lenguaje en sí como en sus objetivos principales. Con la versión 2.0, el sistema de tipo de Dart pasó de opcional a estático, y desde su llegada, Flutter (explicamos qué es más adelante) se ha convertido en el principal objetivo del lenguaje.</p>
+                        
+                        </div>
+                    </div>
+                </section> 
+                <section class="card mb-4">
+                    <div class="card-header text-bg-info">
+                      FORMULARIO DE CONTACTO  			</div>
+                    <div class="card-body">
+                      
+                  
+                    <form><!-- inicio formulario -->
+      
+                        <div class="mb-3">
+                            <label for="Email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Nunca compartimos los email.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="Nombre" placeholder="Ingrese su nombre completo" >
+      
+                        </div>
+      
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Telefono</label>
+                            <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su numero telefonico" >
+      
+                        </div>
+      
+                        <div class="mb-3">
+                            <label for="edad" class="form-label">Ingrese su edad</label>
+                            <input type="number" class="form-control" id="edad" placeholder="Ingrese su edad" >
+      
+                        </div>
+      
+      
+      
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+      
+        
+                        <div class="mb-3">
+                            <label for="comentario" class="form-label">Ingrese su comentario</label>
+                            <textarea class="form-control" id="comentario" rows="3" placeholder="Ingrese su numero comentario"></textarea>
+                        </div>
+      
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">No soy robot</label>
+                        </div>
+                            <button type="submit" class="btn btn-primary">Enviar Formulario</button>
+      
+                    </form>	<!-- fin formulario -->
+                  
+                    </div>
+                </section><!--fin widget 4 -->
+            </aside> <!--FIN COLUMNA DERECHA-->
+        </div>
+
+    </main>
+    <footer class="container card"> <!--bg-succes nos ayuda a cambiar el color al fondo-->
+        <div class="row" >
+            <section class="col-md-4 col-12 text-center" >
+                <img src="imagenes/logotipo4.png" class="img-fluid" style="height: 250px;" alt="">
+            </section><!--fin footer 1 -->   
+                <section class="col-md-4 col-12 p-5" >
+            <h4>Acerca de nosotros</h4>
+            <p class="text-secondary">MADARA</p>
+            <p class="text-secondary">Alumno: David Isrrael Quispe Cabrera </p>
+            <p class="text-secondary">Carrera: Ingenieria de Sistemas</p>
+            <p class="text-secondary">Materia: TECNOLOGIA 2</p>
+            </section><!--fin footer 2 -->
+        
+            <section class="col-md-4 col-12 text-center p-4" >
+            <h4>Direccion</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.5625101871915!2d-68.13990269096709!3d-16.497675684179892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2076af1ebd27%3A0x27a95c97aefd8f4a!2sUniversidad%20Boliviana%20De%20Inform%C3%A1tica%20Sub%20Sede%20La%20Paz!5e0!3m2!1ses-419!2sbo!4v1731455911264!5m2!1ses-419!2sbo" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section><!--fin footer 3 -->
+        </div><!--fin div fila -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
